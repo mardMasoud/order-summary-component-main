@@ -33,6 +33,7 @@ img{
 .container h2{
     padding: 20px;
     font-family: 'Red Hat Display';
+    font-weight: 300;
 }
 p{
     font-family:'Red Hat Display', sans-serif;
@@ -41,11 +42,12 @@ p{
     color: #878995;
     font-weight: 100;
 padding: 0 25px;
-   
+line-height:1.5;
 
 }
 .section1{
-  padding: 50px;
+  padding: 40px;
+  padding-bottom: 45px;
     display: flex;
  align-items: center;
 
@@ -63,8 +65,15 @@ a{
     font-size: 14px;
 }
 
-button{
-    padding: 10px;
-    background-color: hsl(224, 23%, 55%);
+.button{
+    padding: 12px 60px;
+    background-color: #382ae1;
+   border-radius: 10px;
     color: white;
+    font-family:'Red Hat Display', sans-serif;
+   box-shadow:10px #878995;
+}
+.p1{
+padding: 20px;
+    font-family:'Red Hat Display', sans-serif;
 }
